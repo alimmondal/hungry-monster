@@ -1,0 +1,57 @@
+body{
+    background-color: #e7e8f3;
+    padding: 100px;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.877);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+
+.search-box{
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 25px;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+#mealContainer img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#mealDetail img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+#mealContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
